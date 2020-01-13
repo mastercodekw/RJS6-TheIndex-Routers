@@ -88,7 +88,8 @@ body {
   height: 300px;
 }
 
-td button.btn {
+td button.btn,
+td .btn.color {
   border-color: black;
 }
 

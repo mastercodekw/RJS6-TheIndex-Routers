@@ -26,6 +26,7 @@ class AuthorDetail extends Component {
   }
 
   getAuthor = async () => {
+    console.log("etst");
     const authorID = this.props.match.params.authorID;
     this.setState({ loading: true });
     try {
